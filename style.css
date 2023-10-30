@@ -2,14 +2,14 @@
 
 :root{
     --bgWhite: rgb(240, 234, 210);
-    --main: rgb(173, 193, 120);
-    --sec: rgb(169, 132, 103);
+    --main: rgb(118, 133, 76);
+    --sec: rgb(200, 148, 108);
     font-family: 'Roboto Condensed', sans-serif;
     font-family: 'Shadows Into Light', cursive;
 }
 
 body{
-    background-color: var(--bgWhite);
+    background-color: var(--bgWhite); 
 }
 
 .main{
@@ -17,6 +17,9 @@ body{
 }
 .sec{
     color: var(--sec);
+}
+.bg-sec{
+    background-color: var(--sec);
 }
 .Roboto{
     font-family: 'Roboto Condensed', sans-serif;;
@@ -26,3 +29,48 @@ body{
 }
 
 /* NAVBAR */
+
+.navbar-custom{
+    background-color: var(--sec);
+    height: 70px;
+    box-shadow:  0.2px 3px 5px;
+}
+.navbar-custom2{
+    background-color: var(--main);
+    height: 70px;
+    box-shadow:  0.2px 3px 5px;
+}
+
+a:visited{
+    color: var(--main);
+}
+
+.logoCustom{
+    height: 68px;
+}
+
+/* HEADER */
+
+.marginCustom{
+    margin-top: 70px;
+}
+
+.bg-header{
+    background: linear-gradient(rgba(22, 26, 29, 0.5), rgba(22, 26, 29, 0.5)), url(./media/header.jpg);
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.h1-custom{
+    color: var(--main);
+    margin-top: 20%;
+}
+.iconCustom{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: var(--sec);
+    margin-left: 280px;
+}
