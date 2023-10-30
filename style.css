@@ -1,0 +1,28 @@
+/* COLORI E FONT */
+
+:root{
+    --bgWhite: rgb(240, 234, 210);
+    --main: rgb(173, 193, 120);
+    --sec: rgb(169, 132, 103);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+body{
+    background-color: var(--bgWhite);
+}
+
+.main{
+    color: var(--main);
+}
+.sec{
+    color: var(--sec);
+}
+.Roboto{
+    font-family: 'Roboto Condensed', sans-serif;;
+}
+.ShadowI{
+    font-family: 'Shadows Into Light', cursive;
+}
+
+/* NAVBAR */
